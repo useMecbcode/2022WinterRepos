@@ -52,11 +52,11 @@ public:
 };
 
 int main() {
-    Array<int> array{10};
+    Array<int> array{110};
     for (int i = 0; i < 11; ++i) {
         array.insert(i,i);
     }
-    array.delete_data(2);
+    array.delete_data(1);
     array.print();
     return 0;
 }
